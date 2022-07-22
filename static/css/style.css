@@ -1,0 +1,375 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+@font-face {
+    font-family: 'poppins';
+    src: url(../fonts/Poppins-MediumItalic.ttf);
+}
+
+@font-face {
+    font-family: 'Malayalam MN';
+    src: url(../fonts/Malayalam\ MN.ttc);
+}
+
+
+header{
+    padding: 30px 0;
+    border-bottom: 1px solid #000000;
+}
+
+a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.header-container {
+    max-width: 1184px;
+    width:90%;
+    margin: 0 auto;
+}
+
+.logo-wrapper, header nav, .avatar-wrapper, header li {
+    display: inline-block;
+}
+
+.logo-wrapper{
+    margin-right: 270px;
+    font-family: 'Malayalam MN';
+
+}
+
+header li:not(:last-child){
+    margin-right: 50px;
+}
+header li:last-child{
+    margin-right: 367px;
+}
+
+
+.main-container{
+    max-width: 1184px;
+    width:90%;
+    margin: 72px auto;
+
+}
+
+.h1-geo{
+    padding-left: 372px;
+    font-family: 'FiraGO';
+    font-size: 24px;
+}
+
+.card-first, .card-second, .card-third {
+    width: 333px;
+    height:  510px;
+    border: 1px solid black;
+    font-family: 'poppins';
+    margin-top: 65px;
+    display: inline-block;
+    padding: 16px;
+}
+
+.card-second{
+    margin: 0 87px;
+}
+img{
+    width: 100%;
+}
+
+section h3 {
+    margin-top: 13px;
+}
+section p {
+    margin-top: 13px;
+}
+
+section button {
+    margin-top: 20px;
+    margin-left: 180px;
+    width: 118px;
+    height: 30px;
+}
+
+section ul {
+    margin-top: 90px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 215%;
+}
+
+.siakhleebi {
+    font-family: 'FiraGO';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    display: inline-block;
+    margin-right: 400px;
+}
+
+.search-bar {
+    width: 369px;
+    border: 1px solid #000000;
+    border-radius: 2px;height: 47px;
+    padding: 10px;
+    display: inline-block;
+
+}
+
+.search-bar img {
+    width: 26px;
+    height: 26px;
+
+
+}
+.search-bar p {
+    font-family: 'FiraGO';
+font-style: normal;
+font-weight: 350;
+font-size: 12px;
+line-height: 14px;
+display: inline-block;
+margin-left: 50px;
+}
+
+.Blog_nav {
+    margin-top: 93px ;
+    margin-bottom: 93px;
+    margin-left: 200px;
+}
+.Blog_nav li {
+    display: inline-block;
+    margin-left: 70px;
+    font-family: 'FiraGO';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.blog-card1, .blog-card2{
+    height: 267px;
+    border: 1px solid black;
+    font-family: poppins;
+    
+        
+}
+
+.blog-card1 img, .blog-card2 img {
+    width: 308px;
+    height: 228px;
+    margin-right: 22px;
+}
+    
+
+.green-back {
+    background: #E5EBE5;
+    border-radius: 0px 14px 14px 0px;
+    width: 830px;
+    height: 228px;
+    display: inline-block;
+    padding: 20px;
+}
+
+.blog-card1 button, .blog-card2 button {
+    width: 174px;
+    height: 40px;
+    margin-left: 1010px;
+    margin-top: 40px;
+    background-color: white;
+    border-radius: 5%;
+    border: 1px solid black;
+}
+.blog-card2{
+    margin-top: 100px
+}
+.green-back p {
+    padding-top: 30px;
+}
+
+.profile-container {
+    width: 444px;
+    height: 170.81px;
+    margin-top: 156px;
+    margin-left: 266px;
+
+}
+
+.profile-container h1 {
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 45px;
+padding-left: 56px;
+display: inline-block;
+}
+
+.profile-container p {
+    font-family: 'Poppins';
+font-style: italic;
+font-weight: 400;
+font-size: 22px;
+line-height: 33px;
+letter-spacing: 0.03em;
+color: #546CCC;
+display: inline-block;
+margin-left: 229px;
+}
+
+.profile-container img {
+    width: 170px;
+height: 170.81px;
+left: 206px;
+top: 256px;
+}
+
+.profile-about {
+    width: 676px;
+    height: 260px;
+    margin-top: 100px;
+    margin-left: 266px;
+ 
+}
+
+.profile-about h3 {
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+border-bottom: 1px solid black;
+margin-bottom: 50px;
+margin-left: 22px;
+
+}
+
+.profile-about-h {
+    display: inline-block;
+    margin-left: 22px;
+}
+.profile-about h4  {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 30px;
+    
+}
+.profile-about-p {
+    display: inline-block;
+    
+}
+.profile-about p {
+    margin-bottom: 30px;
+    margin-left: 163px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.profile-about img {
+    position: absolute;
+    width: 265px;
+    height: 70px;
+    left: 956px;
+    top: 808px;
+}
+
+.contact-h1 {
+    font-family: 'Andada Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 47px;
+margin-top: 119px;
+
+letter-spacing: 0.03em;
+text-transform: capitalize;
+
+color: #7D0000;
+margin-left:610px
+}
+
+.contact-cont {
+    width: 888px;
+    height: 98px;
+    margin-left: 280px;
+    margin-top: 119px;
+}
+.contact-cont h3 {
+    font-family: 'Andada Pro';
+    font-style: italic;
+    font-weight: 600;
+    font-size: 27px;
+    line-height: 32px;
+    margin-right: 200px;
+    display: inline-block;
+    margin-top: 14px;
+}
+
+.map {
+    position: absolute;
+    width: 908px;
+    height: 423px;
+    margin-left: 260px;
+    margin-top: 144px;
+}
+
+.about-h1 {
+    width: 392px;
+    height: 47px;
+    left: 524px;
+    top: 221px;
+    font-family: 'Andada Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    color: #7D0000;
+    margin-top: 134px;
+    margin-left: 524px;
+} 
+
+.aboutUs-cont{
+    width: 650px;
+    height: 323px;
+    margin-left: 126px;
+    margin-top: 115px;
+    display: inline-block;
+}
+
+.aboutUs-cont p {
+    font-family: 'Andada Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 165%;
+}
+
+.addres {
+    font-family: 'Andada Pro';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 29px;
+    letter-spacing: 0.03em;
+    text-decoration-line: underline;
+    margin-top: 89px;
+    margin-left: 300px;
+}
+
+ 
+.about-photo {
+    width: 500px;
+    height: 333.33px;
+    left: 835px;
+    top: 453px;
+}
+
